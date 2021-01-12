@@ -1,0 +1,47 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2d2d2d;
+    min-height: 40vh;
+}
+
+.controls {
+
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.btn-light {
+
+    margin: 3px;
+    font-size: 18px;
+    color: black;
+}
+
+.btn-light:hover{
+
+    color: #dd3a3a;
+}
+
+.stop {
+
+    font-size: 9em;
+    font-family: "Roboto Medium";
+    color: #dd3a3a;
+}
+
+.laps {
+
+    color: #dd3a3a;
+    font-size: 25px;
+}
+
+ul li {
+
+    list-style: none;
+    padding: 10px 0;
+}
