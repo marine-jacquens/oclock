@@ -12,12 +12,17 @@
 				padding:2%;
 			}
 
-			.timer h1,.timer label {
+			main h1{color: #FFF203;}
+
+			.labelInput label {
 				color: white;
 			}
 
 			.time{
-				color:white;
+				color:#FFF203;
+				text-align: center;
+				font-size:30px;
+
 			}
 
 			.countdown{
@@ -62,8 +67,8 @@
 
 			.button:hover{
 				transition: .5s;
-				border-color:deeppink;
-				color:deeppink;
+				border-color:#FFF203;
+				color:#FFF203;
 			}
 
 			#resetTimerButton{
