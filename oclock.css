@@ -45,3 +45,8 @@ ul li {
     list-style: none;
     padding: 10px 0;
 }
+
+#alarmOption {
+
+    display: none;
+}
