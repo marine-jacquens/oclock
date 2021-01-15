@@ -1,0 +1,76 @@
+			body{
+				margin:0;
+				font-family: arial;
+			}
+
+
+			.timer{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				background-color:black;
+				padding:2%;
+			}
+
+			main h1{color: #FFF203;}
+
+			.labelInput label {
+				color: white;
+			}
+
+			.time{
+				color:#FFF203;
+				text-align: center;
+				font-size:30px;
+
+			}
+
+			.countdown{
+				display:flex;
+				flex-direction: column;
+				align-items: center;
+
+			}
+
+			.number {
+				display:flex;
+				align-content: bottom;
+				margin-bottom:15%;
+			}
+
+			.number p{
+				margin-top:0;
+				margin-bottom:0;
+				margin-right:1%;
+				margin-left:1%;
+				color:white;
+			}
+
+			.labelInput{
+				display: flex;
+				flex-direction: column;
+			}
+
+			.colon{
+				display: flex;
+				align-items: flex-end;
+				margin-right:2%;
+				margin-left:2%;
+			}
+
+			.button{
+				background-color: black;
+				border-color:white;
+				border-radius:5px;
+				color: white;
+			}
+
+			.button:hover{
+				transition: .5s;
+				border-color:#FFF203;
+				color:#FFF203;
+			}
+
+			#resetTimerButton{
+				display: none;
+			}
