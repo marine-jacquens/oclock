@@ -62,7 +62,7 @@ $(document).ready(function(){
 					
 					countdownEl.empty();
 					$('#startingHours').val(0);
-					$('#startingMinutes').val(0);
+					$('#startingMinutes').val(12);
 					$('#startingSeconds').val(0);
 
 					$('#startingHours').removeAttr('disabled');	

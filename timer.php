@@ -16,7 +16,7 @@
 		
 	</header>
 	<main>
-		<h1>12 minutes avant minuit</h1>
+		<h1>“ 12 minutes avant minuit ”</h1>
 
 		<p id="countdown" class="time"></p>
 
@@ -33,7 +33,7 @@
 							
 				<div class="labelInput">	
 					<label for="startingMinutes">m</label>					
-					<input type="number" name="minute" id="startingMinutes" min="00" max="59" value="0" >	
+					<input type="number" name="minute" id="startingMinutes" min="00" max="59" value="12" >	
 				</div>
 
 				<div class="colon"><p>:</p></div>
