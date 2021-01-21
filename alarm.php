@@ -12,12 +12,15 @@
 </head>
 <body>
 <main>
-    <input type="datetime-local" id="alarmTime">
-    <button onclick="setAlarm(this);" id="alarmButton">GO</button>
+    <div class="block">
+    <input class="input_text" type="datetime-local" id="alarmTime">
+    <button type="button" class="btn btn-warning" onclick="setAlarm(this);" id="alarmButton">GO</button>
+    </div>
 
     <div id="alarmOption">
         <button onclick="snooze()">Snooze 5 minutes</button>
         <button onclick="stopAlarm()"> Stop Alarme</button>
+    </div>
 
     <script>
         var alarmSound = new Audio();
