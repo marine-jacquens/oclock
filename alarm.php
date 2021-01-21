@@ -21,7 +21,7 @@
 
     <script>
         var alarmSound = new Audio();
-        alarmSound.src = "alarm.mp3";
+        alarmSound.src = "sonnerie.mp3";
         var alarmTimer;
 
         function setAlarm(button) {
