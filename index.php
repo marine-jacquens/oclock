@@ -2,10 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viweport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" type="text/css" href="clock.css">
-	<link rel="stylesheet" type="text/css" href="general.css">
+	<link rel="stylesheet" type="text/css" href="oclock.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
