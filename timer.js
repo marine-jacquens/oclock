@@ -52,7 +52,7 @@ $(document).ready(function(){
 
 					if (time === 0){
 
-						$('#messageTimer').html("C'est terminé ! ");
+						$('#messageTimer').html("Pluie de poulpes ! ");
 					}
 
 				};
