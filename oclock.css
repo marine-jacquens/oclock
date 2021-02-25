@@ -148,6 +148,12 @@ footer{
 
             }
 
+            .messageTimer{
+                color:#FFF203;
+                text-align: center;
+
+            }
+
             .countdown{
                 display:flex;
                 flex-direction: column;

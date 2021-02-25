@@ -20,6 +20,8 @@
 		<p id="countdown" class="time"></p>
 
 		<form class="countdown" >
+
+			<div id="messageTimer" class="messageTimer"></div>
 			
 			<div class="numberTimer">
 							

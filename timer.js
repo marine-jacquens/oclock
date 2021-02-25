@@ -50,6 +50,11 @@ $(document).ready(function(){
 					//si le total du minuteur vaut moins que 0 alors il égal 0 sinon il vaut time
 					time = time < 0 ? 0 : time; 
 
+					if (time === 0){
+
+						$('#messageTimer').html("C'est terminé ! ");
+					}
+
 				};
 
 				resetTimerButton.click(function(e){
@@ -61,6 +66,7 @@ $(document).ready(function(){
 					countdownButton.css('display','block');
 					
 					countdownEl.empty();
+					$('#messageTimer').empty();
 					$('#startingHours').val(0);
 					$('#startingMinutes').val(12);
 					$('#startingSeconds').val(0);
